@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Incorporado</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #EEE;
+        }
+
+        header {
+            background: #ccc;
+            margin: 10px 20px 5px 25px;
+            /* top, direito, baixo, esquerda */
+        }
+
+        main {
+            background: #aaa;
+            padding: 20px 10px;
+            /* Topo baixo, esquerda e direita */
+        }
+
+        p {
+            color: rgb(76, 0, 255);
+        }
+
+        #primeiro-paragrafo {
+            color: bisque;
+        }
+
+        .paragrafo-padrao-classe{
+            color: aquamarine;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Título Principal</h1>
+    </header>
+    <main>
+        <h2>Título Secundária</h2>
+        <p id="primeiro-paragrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci necessitatibus
+            quae alias id quidem quaerat animi? Nisi unde sequi rerum accusamus quidem quo odit eum, eos, sunt eius
+            minima tenetur?</p>
+        <section>
+            <article>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod maiores quos assumenda porro,
+                    ipsum magni maxime placeat, nisi cupiditate perspiciatis. Incidunt mollitia assumenda doloribus
+                    nesciunt laborum eaque eos. Beatae!</p>
+                <p class="paragrafo-padrao-classe">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod maiores quos assumenda porro,
+                    ipsum magni maxime placeat, nisi cupiditate perspiciatis. Incidunt mollitia assumenda doloribus
+                    nesciunt laborum eaque eos. Beatae!</p>
+                <p  class="paragrafo-padrao-classe">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod maiores quos assumenda porro,
+                    ipsum magni maxime placeat, nisi cupiditate perspiciatis. Incidunt mollitia assumenda doloribus
+                    nesciunt laborum eaque eos. Beatae!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <address>&copy; Todos os direitos reservados</address>
+    </footer>
+</body>
+
+</html>
