@@ -8,58 +8,165 @@
 :root {
     --primary-color: #47BEBA;
     --secondary-color: #F22E52;
-    --text-color-button:#FFF;
+    --text-color-button: #FFF;
+    --padding-button: 1rem 2rem
 }
 
 .primary-color {
     background: var(--primary-color);
-    color: var(--text-color-button)
+    color: var(--text-color-button);
+    padding: var(--padding-button);
+    display: inline-block;
+    border-radius: 5px;
 }
 
 .secondary-color {
     background: var(--secondary-color);
-    color: var(--text-color-button)
+    color: var(--text-color-button);
+    padding: var(--padding-button);
+    display: inline-block;
+    border-radius: 5px;
+
 }
-h3{
+
+h3 {
     text-align: center;
     font-size: 48px;
     font-weight: bold;
 }
 
-h1{
+h1 {
     font-family: "Biryani", sans-serif;
     font-size: 40px;
     color: #160647;
 }
 
-.container{
+.container {
     width: 1172px;
     margin: auto;
 }
 
 /* top header */
-.top-header{
- background: url(../images/background.jpg) no-repeat;
- background-size: cover;
- padding-top: 40px;
+.top-header {
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 40px;
 }
 
-.top-header header .container{
-  display: flex;
-  justify-content: space-between
+.top-header header .container {
+    display: flex;
+    justify-content: space-between
 }
 
-.top-header .logo{
+.top-header .logo {
     display: flex;
     align-items: center;
 }
 
-nav ul{
+.top-header .logo h1 {
+    margin-right: 6px;
+}
+
+nav {
     display: flex;
-   list-style: none;
+    align-items: center;
 }
 
-a{
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 16px;
+}
+
+.login .primary-color {
+    margin-left: 16px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+a {
     text-decoration: none;
+    color: #160647;
 }
 
+/* cta */
+
+.cta {
+    padding: 208px 0;
+}
+
+.cta .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta h2 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #160647;
+    text-align: center;
+}
+
+.cta p {
+    margin: 30px 0 40px;
+    width: 697px;
+    text-align: center;
+    color: #6c6c6c;
+}
+
+.cta a {
+    margin: 0 10px;
+}
+
+.cta a:hover {
+    box-shadow: 0 0 10px #AAA;
+}
+
+.brands .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+
+}
+
+.about-us .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.about-us .container h4 {
+    font-size: 40px;
+    color: #322853;
+    margin-top: 60px;
+
+}
+
+
+.about-us .container .primary-color {
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-us .container p {
+    margin: 23px 0 27px;
+    color: #6c6c6c;
+    width: 383px;
+}
+
+.our-features .container h3{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+}
+
+.our-features .container{
+    display: center;
+}
