@@ -288,9 +288,66 @@ a {
     margin-top: 43px;
 }
 
-.ready fieldset {
-  display: flex;
-  justify-content: space-between;
-  border: none;
+.ready .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.ready h3 {
+    margin-bottom: 30px;
+}
+
+.ready a {
+    margin: 33px 0 53px;
+}
+
+.ready p {
+    color: #160647;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.ready fieldset {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    gap: 60px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer a {
+    font-size: 14px;
+    margin: 5px;
+}
+
+footer {
+    border-top: 1px solid #000;
+    margin-top: 265px;
+    padding-top: 104px;
+    padding-bottom: 174px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 35px;
+}
+.lista{
+    margin-bottom: 50px;
+}
