@@ -318,8 +318,8 @@ a {
 footer .container {
     display: flex;
     justify-content: space-between;
-    
-    
+
+
 }
 
 footer p {
@@ -328,14 +328,14 @@ footer p {
 
 footer a {
     font-size: 14px;
-   margin: 5px;
+    margin: 5px;
 }
 
 footer {
     border-top: 1px solid #000;
     margin-top: 265px;
     padding-top: 104px;
-    padding-bottom: 174px ;
+    padding-bottom: 174px;
 }
 
 footer ul li {
@@ -346,6 +346,35 @@ footer ul li {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    gap: 35px; 
+    gap: 35px;
     padding-top: 50px;
+}
+
+/* design responsivo */
+
+@media (max-width:480px) {
+    .container {
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+
+    .cta p, .testimonials h3 {
+        width: 100%;
+    }
+
+    .brands,
+    .about-us-video {
+        display: none;
+    }
+
+    img {
+        max-width: 100%;
+    }
+    .works .images{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .ready fieldset{
+        flex-direction: column;
+    }
 }
