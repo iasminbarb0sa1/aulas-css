@@ -348,6 +348,7 @@ footer ul li {
     align-items: end;
     gap: 35px;
 }
-.lista{
+ footer .lista h5{
     margin-bottom: 50px;
+    margin: 14px 0;
 }
